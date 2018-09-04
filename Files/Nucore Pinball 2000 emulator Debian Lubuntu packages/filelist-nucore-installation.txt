@@ -1,0 +1,211 @@
+nucore:
+total 40
+drwxrwxr-x 2 nucore nucore 4096 Jul 14 15:20 bin
+drwxrwxr-x 2 nucore nucore 4096 Jul 14 15:20 config
+drwxrwxr-x 2 nucore nucore 4096 Jul 13 18:40 download
+drwxrwxr-x 4 nucore nucore 4096 Jul 14 15:20 install
+drwxrwxr-x 2 nucore nucore 4096 Jul 15 15:34 logs
+drwxrwxr-x 2 nucore nucore 4096 Jul 13 18:40 music
+drwxrwxr-x 6 nucore nucore 4096 Jul 14 15:19 resources
+drwxrwxr-x 3 nucore nucore 4096 Jul 14 15:26 roms
+drwxrwxr-x 3 nucore nucore 4096 Jul 14 15:26 scripts
+drwxrwxr-x 4 nucore nucore 4096 Jul 14 15:26 update
+
+nucore/bin:
+total 3232
+-rwxrwxr-x 1 nucore nucore  869080 Mär 27 01:06 nucore
+-rwxrwxr-x 1 nucore nucore  869016 Aug  7  2017 nucore.225
+-rwxrwxr-x 1 nucore nucore 1543060 Jul  9 16:28 nucore.old
+-rwxrwxr-x 1 nucore nucore    4410 Jun 22  2017 n_update
+-rwxrwxr-x 1 nucore nucore    2455 Jul  9 16:28 n_update.old
+-rwsrwxrwx 1 root   root      7692 Jul  9 16:28 run
+
+nucore/config:
+total 16
+-rwxrwxr-x 1 nucore nucore 286 Jul  9 16:28 leds.cfg
+-rwxrwxr-x 1 nucore nucore 245 Jul  9 19:46 pb2k.cfg
+-rwxrwxr-x 1 nucore nucore 116 Jul  9 16:28 pb2k.cfg~
+-rwxrwxr-x 1 nucore nucore  34 Jul  9 16:28 servers.txt
+
+nucore/download:
+total 0
+
+nucore/install:
+total 16
+-rwxrwxr-x 1 nucore nucore 3461 Jul  9 16:28 install
+-rwxrwxr-x 1 nucore nucore 3463 Jul  9 16:28 install~
+drwxrwxr-x 3 nucore nucore 4096 Jul 14 15:20 libs
+drwxrwxr-x 2 nucore nucore 4096 Jul 14 15:20 start
+
+nucore/install/libs:
+total 1376
+-rwxrwxr-x 1 nucore nucore  21953 Jul  9 16:28 libftchipid.so.0.1.0
+-rwxrwxr-x 1 nucore nucore 244878 Jul  9 16:28 libftd2xx.so.0.4.15
+-rwxrwxr-x 1 nucore nucore  64212 Jul  9 16:28 libltdl.so.3.1.4
+-rwxrwxr-x 1 nucore nucore    956 Jul  9 16:28 libmpg123.la
+-rwxrwxr-x 1 nucore nucore 652166 Jul  9 16:28 libmpg123.so.0.18.12
+-rwxrwxr-x 1 nucore nucore 402185 Jul  9 16:28 libSDL_mixer-1.2.so.0.2.6
+-rwxrwxr-x 1 nucore nucore    869 Jul  9 16:28 libSDL_mixer.la
+drwxrwxr-x 2 nucore nucore   4096 Jul 14 15:20 mpg123
+
+nucore/install/libs/mpg123:
+total 64
+-rwxrwxr-x 1 nucore nucore   967 Jul  9 16:28 output_dummy.la
+-rwxrwxr-x 1 nucore nucore  9846 Jul  9 16:28 output_dummy.so
+-rwxrwxr-x 1 nucore nucore   955 Jul  9 16:28 output_oss.la
+-rwxrwxr-x 1 nucore nucore 16757 Jul  9 16:28 output_oss.so
+-rwxrwxr-x 1 nucore nucore   974 Jul  9 16:28 output_sdl.la
+-rwxrwxr-x 1 nucore nucore 16438 Jul  9 16:28 output_sdl.so
+
+nucore/install/start:
+total 8
+-rwxrwxr-x 1 nucore nucore 53 Jul  9 16:28 exec_nucore
+-rwxrwxr-x 1 nucore nucore 58 Jul  9 16:28 exec_nucore~
+
+nucore/logs:
+total 24
+-rw-rw-r-- 1 root nucore 537 Jul 14 15:24 nucore_2018_07_14_15_24_21.log
+-rw-rw-r-- 1 root nucore 537 Jul 14 15:24 nucore_2018_07_14_15_24_41.log
+-rw-rw-r-- 1 root nucore 537 Jul 14 15:28 nucore_2018_07_14_15_28_13.log
+-rw-rw-r-- 1 root nucore 537 Jul 14 15:29 nucore_2018_07_14_15_29_05.log
+-rw-rw-r-- 1 root nucore 447 Jul 14 15:29 nucore_2018_07_14_15_29_20.log
+-rw-rw-r-- 1 root nucore 447 Jul 15 15:34 nucore_2018_07_15_15_34_08.log
+
+nucore/music:
+total 0
+
+nucore/resources:
+total 16
+drwxrwxr-x 2 nucore nucore 4096 Jul 14 15:20 config_menu
+drwxrwxr-x 3 nucore nucore 4096 Jul 14 15:20 jukebox
+drwxrwxr-x 4 nucore nucore 4096 Jul 14 15:19 load
+drwxrwxr-x 2 nucore nucore 4096 Jul 14 15:20 watermark
+
+nucore/resources/config_menu:
+total 448
+-rwxrwxr-x 1 nucore nucore 308276 Jul  9 16:28 config_menu_main.bmp
+-rwxrwxr-x 1 nucore nucore 143264 Jul  9 16:28 config_menu_msg_ov.bmp
+-rwxrwxr-x 1 nucore nucore   1109 Jul  9 16:28 config_menu_sounds.cfg
+
+nucore/resources/jukebox:
+total 912
+drwxrwxr-x 2 nucore nucore   4096 Jul 14 15:20 fonts
+-rwxrwxr-x 1 nucore nucore 921656 Jul  9 16:28 juke_modepic.bmp
+-rwxrwxr-x 1 nucore nucore      0 Jul  9 16:52 juke_playlist.txt
+-rwxrwxr-x 1 nucore nucore     11 Jul  9 16:28 music_dir.txt
+
+nucore/resources/jukebox/fonts:
+total 156
+-rwxrwxr-x 1 nucore nucore 28272 Jul  9 16:28 arial.bmp
+-rwxrwxr-x 1 nucore nucore 28268 Jul  9 16:28 arial_inverse.bmp
+-rwxrwxr-x 1 nucore nucore 19398 Jul  9 16:28 arial.ttf_14_0_0_255_b.bmp
+-rwxrwxr-x 1 nucore nucore 29278 Jul  9 16:28 arial.ttf_18_0_0_255_b.bmp
+-rwxrwxr-x 1 nucore nucore 47082 Jul  9 16:28 arial.ttf_22_0_0_255_b.bmp
+
+nucore/resources/load:
+total 8
+drwxrwxr-x 2 nucore nucore 4096 Jul 14 15:20 rfm
+drwxrwxr-x 2 nucore nucore 4096 Jul 14 15:20 swe1
+
+nucore/resources/load/rfm:
+total 912
+-rwxrwxr-x 1 nucore nucore 921656 Mai 28  2017 rfm_load_screen_s0.bmp
+-rwxrwxr-x 1 nucore nucore    830 Jul  9 16:28 rfm_load_sounds.cfg
+-rwxrwxr-x 1 nucore nucore    853 Jul  9 16:28 rfm_load_sounds.cfg~
+
+nucore/resources/load/swe1:
+total 916
+-rwxrwxr-x 1 nucore nucore 921656 Mai 28  2017 swe1_load_screen_s0.bmp
+-rwxrwxr-x 1 nucore nucore    830 Jul  9 16:28 swe1_load_sounds.cfg
+-rwxrwxr-x 1 nucore nucore    892 Jul  9 16:28 swe1_load_sounds.cfg~
+-rwxrwxr-x 1 nucore nucore    874 Jul  9 16:28 swe1_load_sounds.cfg.old~
+
+nucore/resources/watermark:
+total 8
+-rwxrwxr-x 1 nucore nucore 4856 Jul  9 16:28 watermark.bmp
+
+nucore/roms:
+total 200960
+-rw------- 1 nucore nucore    65536 Dez 19  2008 bios.bin
+-rw------- 1 nucore nucore 18855711 Jul 10  2009 rfm_nucore.bin
+-rw------- 1 nucore nucore  8388608 Dez 19  2008 rfm_u100r2.rom
+-rw------- 1 nucore nucore  8388608 Dez 19  2008 rfm_u100.rom
+-rw------- 1 nucore nucore  8388608 Dez 19  2008 rfm_u101r2.rom
+-rw------- 1 nucore nucore  8388608 Dez 19  2008 rfm_u101.rom
+-rw------- 1 nucore nucore  8388608 Dez 19  2008 rfm_u102.rom
+-rw------- 1 nucore nucore  8388608 Dez 19  2008 rfm_u103.rom
+-rw------- 1 nucore nucore  8388608 Dez 19  2008 rfm_u104.rom
+-rw------- 1 nucore nucore  8388608 Dez 19  2008 rfm_u105.rom
+-rw------- 1 nucore nucore  8388608 Dez 19  2008 rfm_u106.rom
+-rw------- 1 nucore nucore  8388608 Dez 19  2008 rfm_u107.rom
+-rw------- 1 nucore nucore  4194304 Mai 17  2008 rfm_u109.bin
+-rw------- 1 nucore nucore  4194304 Mai 17  2008 rfm_u110.bin
+drwxrwxr-x 2 nucore nucore     4096 Jul 14 15:26 savedata
+-rw------- 1 nucore nucore  3553620 Dez 19  2008 swe1_14f.cpu
+-rw------- 1 nucore nucore 15524468 Jul 10  2009 swe1_nucore.bin
+-rw------- 1 nucore nucore  8388608 Dez 19  2008 swe1_u100.rom
+-rw------- 1 nucore nucore  8388608 Dez 19  2008 swe1_u101.rom
+-rw------- 1 nucore nucore  8388608 Dez 19  2008 swe1_u102.rom
+-rw------- 1 nucore nucore  8388608 Dez 19  2008 swe1_u103.rom
+-rw------- 1 nucore nucore  8388608 Dez 19  2008 swe1_u104.rom
+-rw------- 1 nucore nucore  8388608 Dez 19  2008 swe1_u105.rom
+-rw------- 1 nucore nucore  8388608 Dez 19  2008 swe1_u106.rom
+-rw------- 1 nucore nucore  8388608 Dez 19  2008 swe1_u107.rom
+-rw------- 1 nucore nucore  4194304 Mai 16  2008 swe1_u109.rom
+-rw------- 1 nucore nucore  4194304 Mai 16  2008 swe1_u110.rom
+
+nucore/roms/savedata:
+total 8720
+-rw------- 1 nucore nucore      16 Jul 12  2009 rfm_15.ems
+-rw------- 1 nucore nucore 4194304 Jul 12  2009 rfm_15.flash
+-rw------- 1 nucore nucore  163840 Jun 23  2009 rfm_15.nvram
+-rw------- 1 nucore nucore     128 Jul 12  2009 rfm_15.see
+-rw------- 1 nucore nucore      16 Jul 13  2009 swe1_14.ems
+-rw------- 1 nucore nucore 4194304 Jul 13  2009 swe1_14.flash
+-rw------- 1 nucore nucore  163840 Jul  8  2009 swe1_14.nvram
+-rw------- 1 nucore nucore  163840 Jul  8  2009 swe1_14.nvram1
+-rw------- 1 nucore nucore   32768 Jul  1  2009 swe1_14.nvram2
+-rw------- 1 nucore nucore     128 Jul 13  2009 swe1_14.see
+
+nucore/scripts:
+total 28
+-rwx------ 1 nucore nucore  496 Jul 13 17:50 15khz-x11.sh
+-rwx------ 1 nucore nucore   94 Jul 13 18:06 autostart-disable.sh
+-rwx------ 1 nucore nucore  131 Jul 13 18:05 autostart-enable.sh
+drwx------ 2 nucore nucore 4096 Jul 14 15:23 confs
+-rwx------ 1 nucore nucore  216 Jul 13 18:25 crt-15khz-disable.sh
+-rwx------ 1 nucore nucore  213 Jul 13 18:25 crt-15khz-enable.sh
+-rwx------ 1 nucore nucore  164 Jul 14 15:26 start-nucore.sh
+
+nucore/scripts/confs:
+total 4
+-rw-r--r-- 1 nucore nucore 84 Jul 13 18:04 start-nucore.desktop
+
+nucore/update:
+total 8
+drwxrwxr-x 2 nucore nucore 4096 Jul 14 15:26 rfm_15
+drwxrwxr-x 2 nucore nucore 4096 Jul 14 15:26 swe1_14
+
+nucore/update/rfm_15:
+total 11048
+-rw------- 1 nucore nucore      84 Aug 10  1999 gamelist.txt
+-rw------- 1 nucore nucore 2356837 Apr  1  2006 pin2000_50070_0160_09222003_B_10000000.exe
+-rw------- 1 nucore nucore   32768 Sep 22  2003 pin2000_50070_0160_bootdata.rom
+-rw------- 1 nucore nucore 2534912 Sep 22  2003 pin2000_50070_0160_game.rom
+-rw------- 1 nucore nucore  614900 Sep 22  2003 pin2000_50070_0160_im_flsh0.rom
+-rw------- 1 nucore nucore   32768 Sep 22  2003 pin2000_50070_0160_pubboot.rom
+-rw------- 1 nucore nucore 1048576 Apr 14  1999 pin2000_50070_0160_sf.rom
+-rw------- 1 nucore nucore  748544 Sep 22  2003 pin2000_50070_0160_symbols.rom
+-rw------- 1 nucore nucore 3931124 Mär 29  2009 rfm_15_update.bin
+
+nucore/update/swe1_14:
+total 9488
+-rw------- 1 nucore nucore      84 Aug 10  1999 gamelist.txt
+-rw------- 1 nucore nucore 1517173 Jan  4  2007 pin2000_50069_0150_07252000_B_10000000.exe
+-rw------- 1 nucore nucore   32768 Sep 22  2003 pin2000_50069_0150_bootdata.rom
+-rw------- 1 nucore nucore 2349056 Sep 22  2003 pin2000_50069_0150_game.rom
+-rw------- 1 nucore nucore  564564 Sep 22  2003 pin2000_50069_0150_im_flsh0.rom
+-rw------- 1 nucore nucore   32768 Sep 22  2003 pin2000_50069_0150_pubboot.rom
+-rw------- 1 nucore nucore 1048576 Nov 10  1999 pin2000_50069_0150_sf.rom
+-rw------- 1 nucore nucore  606208 Sep 22  2003 pin2000_50069_0150_symbols.rom
+-rw------- 1 nucore nucore 3552596 Mär 29  2009 swe1_14_update.bin

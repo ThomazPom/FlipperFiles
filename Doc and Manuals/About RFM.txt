@@ -1,0 +1,89 @@
+A 19-year-old Coin-op Pinball
+
+Revenge from Mars © 1999 WMS Gaming.
+
+TECHNICAL
+Midway Pinball 2000 System
+
+Main CPU: Cyrix MediaGX (@ 233 MHz)
+Sound CPU: ADSP2104 (@ 16MHz)
+Sound chips: (2x) DMA-driven DAC
+
+TRIVIA
+A cow is held by the big martian on the backglass.
+
+One of the animals that you must shrink in the Big-O-Beam mode is a cow.
+
+A plane on the backglass has the text 'P2K' and 'Gomez' on the side.
+
+A cow can be beamed up in 'Alien Abduction'.
+
+In the animation for regular multiball a Saturn-like planet whizzes by. On the rings of the planet stands a cow.
+
+TIPS AND TRICKS
+"Mortal Kombat" line: in the Secret Weapon mode, get the martians life bar down all the way and the words 'Finish Him!' appear.
+
+In Attract mode, press the following sequence: B, 1R, 1L, 2R, 1L, 3R, 1L, 1L
+
+SERIES
+
+    Attack from Mars (1995)
+    Revenge from Mars (1999)
+
+
+STAFF
+Designer: George Gomez
+Artword: John Youssi, Greg Freres
+Software: Lyman F. Sheats Jr., Dwight Sullivan, Keith P. Johnson, Graham West
+Animation: Adam Rhine, Scott Slomiany, Jack Liddon, Scott Sanders, Dave Mueller
+Mechanics: Chris Shipman
+Music & Sounds: Dan Forden
+
+
+TODO
+
+    Everything!
+    BIOS hangs waiting for port 0400h to return 0x80. If you make that happy it jumps off into the weeds.
+    MediaGX features should be moved out to machine\ and shared with mediagx.c once we know what these games need.
+
+Ports:
+
+    ➤ IN0
+    ➤ IN1
+    ➤ IN2
+    ➤ IN3
+    ➤ IN4
+    ➤ IN5
+    ➤ IN6
+    ➤ IN7
+    ➤ IN8
+    ➤ kbdc ➤ MOUSEBTN
+    ➤ kbdc ➤ MOUSEX (val 1023)
+    ➤ kbdc ➤ MOUSEY (val 1023)
+
+Devices refs:
+    mediagx
+    pic8259
+    pic8259
+    am9517a
+    am9517a
+    pit8254
+    pit_counter
+    pit_counter
+    pit_counter
+    mc146818
+    kbdc8042
+    at_keyb
+    pci_bus_legacy
+    idectrl
+    ata_slot
+    idehd
+    harddisk_image
+    ata_slot
+    ramdac
+    screen
+    gfxdecode
+    palette
+    speaker
+    speaker
+

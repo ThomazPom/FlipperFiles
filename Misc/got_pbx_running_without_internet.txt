@@ -1,0 +1,27 @@
+After install pinbox on modern computer : 
+
+    Press F1 to get terminal and grant root 
+
+    « sudo -i » 
+
+    Prevent pinbox from starting at boot 
+
+    « rm /etc/init.d/pinbox » 
+
+    Restore LXDM at startup 
+
+    « mv /etc/init/lxdm.conf.nostart /etc/init/lxdm.conf » 
+
+    Set pinbox starting at root with lxdm : 
+
+    Open autostart with leafpad 
+
+    « leafpad /etc/xdg/lxsession/Lubuntu/autostart » 
+
+    Add @ sh to autorun pinbox :  
+
+    « @sh /root/pinbox/scripts/autostart.sh » 
+
+    For a faster boot, you can remove other lines but this will be less practical to configure the system after (desktop will not be launched) 
+
+    Reboot :) 

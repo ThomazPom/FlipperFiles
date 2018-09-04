@@ -1,0 +1,113 @@
+A 19-year-old Coin-op Pinball
+
+Star Wars - Episode I © 1999 Williams Electronics Games, Incorporated.
+
+TECHNICAL
+Williams Pinball 2000 System
+
+Main CPU: Cyrix MediaGX (@ 233 MHz)
+Sound CPU: ADSP2104 (@ 16MHz)
+Sound chips: (2x) DMA-driven DAC
+
+TRIVIA
+Based on the 1999 movie of the same name.
+
+This was Williams / Midway's last pinball game produced, as on October 1999, WMS Industries (Williams / Midway's parent company) ceases pinball operations.
+
+UPDATES
+Version: 1.50 - SEP 22 2003
+(Changes From 1.40)
+Incorporate the final version of XINA (1.19) which fixes the problem
+where booting the system with the power driver board disconnected
+can cause factory reset to occur due to the mismatch of the last
+country dipswitch setting in CMOS vs. the country setting for
+an open power driver board cable.
+
+Version 1.40 - July 31, 2000
+(Changes from V1.30)
+Updated to latest operating system.
+Enhanced coin/bill handling and credit system.
+Added tournament mode fix for exploiting ramp shots.
+
+Version 1.30 - September 21, 1999
+(Changes From V1.20)
+Added power-cycle fix for games with Japanese dipswitch settings.
+If you have already upgraded to version 1.20 and are not using Japanese dipswitch settings, this upgrade is not necessary.
+
+Version 1.20 - September 16, 1999
+(Changes From V1.00)
+Added translations
+Added optional ball saver (off by default)
+Added G-U-N-G-A-N / J-A-R-J-A-R rule to bumpers/spinner.
+Made locked balls kick out immediately at end of game.
+Added HSTD tables to status report.
+Added instructions to attract mode.
+Added action buttons (up/down one line) to initials entry.
+Tweaked various scoring, lamp, and display choreography problems.
+Made ramp/spinner combos forgiving of ramp/switch errors.
+Fixed bug in Replay Boost.
+Fixed screen when a PC keyboard is connected.
+Added adjustment to allow slam tilt to reset the game.
+Fixed O/S bug which incorrectly calculated ROM checksums in some cases.
+
+TIPS AND TRICKS
+In Attract mode, press the following sequence: B, 24R, 1L, 9R, 1L, 14R, 1L, 1R, 1L
+
+In Attract mode, press the following sequence: B, 1R, 1L, 2R, 1L, 3R, 1L, 1L
+
+STAFF
+Concept & Design: John Popadiuk
+Artwork: Dave Mueller, Paul Barker, Kevin O'Connor
+Software: Cameron Silver, Duncan Brown
+Animation: Alan Cruz
+Mechanics: Jack Skalon, Bob Brown
+Music & Sounds: Eric Pryzby
+
+
+TODO
+
+    Everything!
+    BIOS hangs waiting for port 0400h to return 0x80. If you make that happy it jumps off into the weeds.
+    MediaGX features should be moved out to machine\ and shared with mediagx.c once we know what these games need.
+
+
+Ports:
+
+    ➤ IN0
+    ➤ IN1
+    ➤ IN2
+    ➤ IN3
+    ➤ IN4
+    ➤ IN5
+    ➤ IN6
+    ➤ IN7
+    ➤ IN8
+    ➤ kbdc ➤ MOUSEBTN
+    ➤ kbdc ➤ MOUSEX (val 1023)
+    ➤ kbdc ➤ MOUSEY (val 1023)
+
+Devices refs:
+    mediagx
+    pic8259
+    pic8259
+    am9517a
+    am9517a
+    pit8254
+    pit_counter
+    pit_counter
+    pit_counter
+    mc146818
+    kbdc8042
+    at_keyb
+    pci_bus_legacy
+    idectrl
+    ata_slot
+    idehd
+    harddisk_image
+    ata_slot
+    ramdac
+    screen
+    gfxdecode
+    palette
+    speaker
+    speaker
